@@ -1,7 +1,7 @@
-# DonationAPP-teamAAAY
-<!-- HERE (edite) -->
-<!-- ## You can check it out [HERE](https://github.com/GSG-CF05/DonationAPP-team-9)
- -->
+# DonationAPP-team9
+
+ ## You can check it out [HERE](https://gsg-cf05.github.io/DonationAPP-team-9/)
+
 ---
 
 ## Team Members:-
