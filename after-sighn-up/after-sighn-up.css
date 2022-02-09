@@ -1,0 +1,734 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+
+body {
+  font-family: "Metropolis";
+  background-color: #fbfbfb;
+}
+/* Start header */
+header .contener {
+  margin: 52px 16px 20px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .contener .icone-lines img {
+  width: 24px;
+}
+
+header .contener .right {
+  display: flex;
+  justify-content: space-between;
+  width: 74px;
+  align-items: center;
+  height: 35px;
+}
+header .contener .icone-notfication img {
+  width: 24px;
+}
+
+header .contener .photo-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header .contener .photo-profile img {
+  width: 35px;
+  height: 35px;
+  background-position: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* End header */
+
+/* Start section welcome */
+section .contener {
+  display: flex;
+  flex-direction: column;
+  width: 247px;
+
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 85px;
+  margin-top: 20px;
+}
+
+section .contener .welcome {
+  display: flex;
+  width: 274px;
+  align-items: center;
+}
+
+section .contener .welcome span {
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+  color: #3eb489;
+}
+
+section .contener .welcome img {
+  width: 1rem;
+  height: 17.26px;
+}
+section .contener .par-question {
+  width: 300px;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  margin-top: 10px;
+  color: #000000;
+}
+
+@media (min-width: 768px) {
+  section .contener .welcome span {
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: normal;
+    color: #3eb489;
+  }
+  section .contener .welcome img {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+
+  section .contener .par-question {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+    margin-top: 10px;
+    color: #000000;
+  }
+}
+/* End section welcome */
+
+/* start search section */
+section .contener-search {
+  display: flex;
+  align-items: center;
+  width: 343px;
+  justify-content: space-between;
+  height: 60px;
+  margin-left: 16px;
+  margin-right: 16px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  margin-top: 20px;
+  border-color: rgba(196, 196, 196, 30%);
+  background-color: white;
+}
+
+section .contener-search .right-search .microphone-icone {
+  width: 15px;
+  height: 19px;
+  border-right: 1px solid rgba(224, 224, 224, 50%);
+  padding-right: 10px;
+}
+
+section .contener-search .right-search {
+  margin-right: 19px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 60px;
+}
+section .contener-search .left-search input {
+  border: none;
+  outline-style: none;
+}
+section .contener-search .left-search input ::placeholder {
+  color: #696969;
+}
+
+section .contener-search .right-search .setting-icon {
+  width: 20px;
+  height: 17px;
+}
+
+section .contener-search .left-search {
+  display: flex;
+  width: 56px;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 14px;
+}
+section .contener-search .left-search .search-icon {
+  width: 21px;
+  height: 21px;
+  margin-right: 20px;
+}
+
+@media (min-width: 768px) {
+  section .contener-search {
+    width: 50%;
+    height: 70px;
+    margin-left: 20%;
+  }
+}
+
+/* end search section */
+
+/* start advertisement section */
+
+section .contener-advertisement {
+  background-image: url(../asstes/photo-card-after\ signup.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 344px;
+  height: 167px;
+  margin-top: 21px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  justify-content: end;
+}
+
+section .contener-advertisement .par-1 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  margin-top: 35px;
+  margin-left: 18px;
+  margin-bottom: 4px;
+}
+section .contener-advertisement .par-2 {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: 700;
+  color: #000000;
+  margin-left: 18px;
+  margin-top: 0;
+}
+
+section .contener-advertisement .par-2 span {
+  font-size: 20px;
+  font-weight: 700;
+  color: #3eb489;
+}
+section .contener-advertisement button {
+  width: 135px;
+  height: 50px;
+  margin-left: 13px;
+  border-radius: 10px;
+  border: none;
+  background-color: #3eb489;
+  color: white;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 768px) {
+  section .contener-advertisement {
+    background-image: url(../asstes/photo-card-after\ signup.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+
+    width: 500px;
+    height: 200px;
+    margin-top: 24px;
+    margin-left: 28%;
+    border-radius: 24px;
+  }
+
+  section .contener-advertisement .par-1 {
+    color: #000000;
+    margin-top: 35px;
+    margin-bottom: 4px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 24px;
+  }
+  section .contener-advertisement .par-2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 24px;
+
+    color: #000000;
+    margin-top: 0;
+  }
+
+  section .contener-advertisement button {
+    width: 135px;
+    height: 50px;
+    margin-left: 24px;
+  }
+}
+
+/* end advertisement section */
+
+/* start categories section */
+
+section .contener-categories {
+  margin-top: 20px;
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+section .contener-categories .categories {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+section .contener-categories .groub-categories {
+  display: flex;
+  align-items: center;
+}
+
+section .contener-categories .groub-categories-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 74px;
+  align-items: center;
+}
+.contener-categories .groub-categories-1 button {
+  width: 74px;
+  height: 74px;
+  border: none;
+  background-color: rgba(137, 105, 226, 10%);
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+.contener-categories .groub-categories-1 button img {
+  width: 37px;
+  height: 37px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contener-categories .groub-categories-1 p {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+section .contener-categories .groub-categories-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 74px;
+  align-items: center;
+  margin-left: 16px;
+}
+.contener-categories .groub-categories-2 button {
+  width: 74px;
+  height: 74px;
+  border: none;
+  background-color: rgba(31, 160, 167, 10%);
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+.contener-categories .groub-categories-2 button img {
+  width: 31px;
+  height: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contener-categories .groub-categories-2 p {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+section .contener-categories .groub-categories-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 84px;
+  align-items: center;
+  margin-left: 16px;
+}
+.contener-categories .groub-categories-3 button {
+  width: 74px;
+  height: 74px;
+  border: none;
+  background-color: rgba(52, 145, 230, 10%);
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+.contener-categories .groub-categories-3 button img {
+  width: 26px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contener-categories .groub-categories-3 p {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+section .contener-categories .groub-categories-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 74px;
+  align-items: center;
+  margin-left: 16px;
+}
+.contener-categories .groub-categories-4 button {
+  width: 74px;
+  height: 74px;
+  border: none;
+  background-color: rgba(255, 153, 0, 10%);
+  border-radius: 10px;
+  margin-bottom: 17px;
+}
+
+.contener-categories .groub-categories-4 button img {
+  width: 32px;
+  height: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+.contener-categories .groub-categories-4 p {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 768px) {
+  section .contener-categories {
+    margin-top: 24px;
+    margin-left: 20%;
+    width: 700px;
+  }
+
+  section .contener-categories .categories {
+    font-size: 1.5rem;
+  }
+
+  section .contener-categories .groub-categories {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 50px;
+  }
+
+  section .contener-categories .groub-categories-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+  }
+
+  .contener-categories .groub-categories-1 p {
+    font-size: 1rem;
+  }
+
+  section .contener-categories .groub-categories-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .contener-categories .groub-categories-2 p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  section .contener-categories .groub-categories-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 115px;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .contener-categories .groub-categories-3 p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  section .contener-categories .groub-categories-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    align-items: center;
+    margin-left: 16px;
+  }
+
+  .contener-categories .groub-categories-4 p {
+    margin-top: 0;
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  .contener-categories div button {
+    width: 100px;
+    height: 100px;
+  }
+}
+/* end categories section */
+
+/* start card section */
+
+section .par-campagin {
+  margin-left: 17px;
+  font-size: 16px;
+  font-weight: 500;
+  z-index: 1;
+}
+
+section .contener-campagin {
+  width: 275px;
+  height: 280;
+  background-color: white;
+  border: 1px solid #ecf0f5;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 17px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+section .contener-campagin .card .card-image {
+  position: relative;
+  width: 235px;
+  height: 108px;
+  background-image: url(../asstes/photo-child.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin: 20px 20px 14px 20px;
+  border-radius: 10px;
+  margin-bottom: 14px;
+}
+
+section .contener-campagin .card .card-image a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-top: 11px;
+  margin-right: 12px;
+}
+
+section .contener-campagin .card .title-card {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+  justify-content: space-between;
+}
+
+section .contener-campagin .card .title-card .par-title {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  margin-top: 14px;
+}
+
+section .contener-campagin .card .title-card .par-card {
+  font-size: 12px;
+  font-weight: 400;
+  color: #3eb489;
+  border: 1px solid #3eb489;
+  border-radius: 5px;
+  padding: 4px 10px;
+  margin-top: 11px;
+}
+
+section .contener-campagin .card .par-lorem {
+  width: 248px;
+  height: 46px;
+  overflow: hidden;
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #696969;
+  margin-top: 0;
+  margin-bottom: 14px;
+  line-height: 21px;
+}
+
+section .contener-campagin .card .rang {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 17px;
+  justify-content: space-between;
+}
+
+section .contener-campagin .card .rang .rectangle-parent {
+  width: 100%;
+  height: 4px;
+  background-color: rgba(62, 180, 137, 30%);
+}
+
+section .contener-campagin .card .rang .rectangle-parent .rectangle-child {
+  width: 120px;
+  height: 4px;
+  background-color: rgba(62, 180, 137);
+}
+section .contener-campagin .card .rang .label-1 {
+  color: #3eb489;
+  font-size: 14px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 21px;
+}
+
+section .contener-campagin .card .rang .label-2 {
+  color: #3eb489;
+  font-size: 12px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 23px;
+}
+
+@media (min-width: 768px) {
+  section .par-campagin {
+    margin-left: 20%;
+    font-size: 1.5rem;
+  }
+
+  section .contener-campagin {
+    width: 500px;
+    height: 470px;
+    margin-left: 25%;
+    margin-bottom: 100px;
+  }
+
+  section .contener-campagin .card .card-image {
+    position: relative;
+    width: 450px;
+    height: 216px;
+  }
+
+  section .contener-campagin .card .title-card .par-title {
+    font-size: 1.3rem;
+    margin-top: 16px;
+  }
+
+  section .contener-campagin .card .title-card .par-card {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+  section .contener-campagin .card .par-lorem {
+    width: 400px;
+    height: 70px;
+    overflow: hidden;
+    margin-left: 20px;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 18px;
+    line-height: 24px;
+  }
+
+  section .contener-campagin .card .rang .rectangle-parent {
+    width: 100%;
+    height: 6px;
+  }
+
+  section .contener-campagin .card .rang .rectangle-parent .rectangle-child {
+    width: 120px;
+    height: 6px;
+  }
+  section .contener-campagin .card .rang .label-1 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+
+  section .contener-campagin .card .rang .label-2 {
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+}
+/* end card section */
+
+/* start navegation section */
+
+nav {
+  background-color: white;
+  border-top: 1px solid rgba(105, 105, 105, 10%);
+  width: 100%;
+  height: 74px;
+  margin: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  overflow-x: auto;
+  justify-content: space-around;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 13px;
+  margin-top: 15px;
+}
+
+nav .part-1 {
+  margin-right: 54px;
+  margin-left: 31px;
+}
+nav .part-2 {
+  margin-right: 54px;
+}
+nav .part-3 {
+  margin-right: 54px;
+}
+nav .part-4 {
+  margin-right: 27px;
+}
+
+nav a .img1 {
+  width: 24px;
+  height: 24px;
+}
+nav a .img2 {
+  width: 21px;
+  height: 19px;
+}
+nav a .img3 {
+  width: 20px;
+  height: 18px;
+}
+nav a .img4 {
+  width: 14px;
+  height: 20px;
+}
+
+nav div span {
+  font-size: 12px;
+  color: #000000;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.nav__link {
+  display: flex;
+  overflow: hidden;
+  white-space: nowrap;
+  text-decoration: none;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 0.1s ease-in-out;
+}
+
+/* end navegation section */
