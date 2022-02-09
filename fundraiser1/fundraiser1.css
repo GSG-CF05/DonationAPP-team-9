@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css%22%22");
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 html {
   font-size: 10px;
 }
@@ -8,7 +8,7 @@ html {
   margin: 0;
 }
 body {
-  background-color: #e5e5e5;
+  background-color: #fbfbfb;
   font-family: "Metropolis";
   font-style: normal;
 }
@@ -67,7 +67,8 @@ body {
   text-align: center;
 }
 .education-btn p {
-  line-height: 23px;
+  line-height: 25px;
+  color: #fff;
 }
 /* Fundraise Description section  */
 .fundraise-description {
@@ -80,7 +81,7 @@ body {
   margin-bottom: 20px;
 }
 .donation {
-  width: 50%;
+  width: 53%;
   display: flex;
   align-items: center;
   gap: 5%;
