@@ -1,0 +1,260 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
+html {
+  font-size: 10px;
+}
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #fbfbfb;
+  font-family: "Metropolis";
+  font-style: normal;
+}
+/* Header Section  */
+.header-section {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.container {
+  margin-left: 16px;
+  margin-right: 16px;
+}
+.bar-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.right-icons img:last-of-type {
+  margin-left: 15px;
+}
+/* Fundraise Picture section */
+.fundraise-picture {
+  width: 100%;
+  height: 178px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.fundraise-picture .children-picture {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.pic-description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 10px;
+}
+.pic-description img {
+  width: 15px;
+  height: 15px;
+}
+.pic-bar {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+.pic-description p {
+  color: #fff;
+}
+.education-btn {
+  width: 70px;
+  height: 25px;
+  background-color: #3eb489;
+  border-radius: 5px;
+  text-align: center;
+}
+.education-btn p {
+  line-height: 25px;
+  color: #fff;
+}
+/* Fundraise Description section  */
+.fundraise-description {
+  margin-bottom: 35px;
+}
+.fundraise-description h2 {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #2c2b2b;
+  margin-bottom: 20px;
+}
+.donation {
+  width: 53%;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  margin-bottom: 20px;
+}
+.personal-pic {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  margin-left: -5px;
+}
+.donation div img:first-of-type {
+  margin-left: 0;
+}
+.donation p {
+  font-size: 1.2rem;
+  color: #696969;
+}
+.donation-bar {
+  width: 100%;
+  height: 8px;
+  background-color: #93f9b9;
+  position: relative;
+  margin-bottom: 20px;
+}
+.donation-bar::after {
+  content: "";
+  width: 95%;
+  height: 8px;
+  position: absolute;
+  background-color: #3eb489;
+  border-radius: 2px;
+}
+.donation-goals {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 35px;
+}
+.donation-goals p:first-of-type {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.donation-goals p:last-of-type {
+  font-size: 1.4rem;
+  color: #3eb489;
+  align-self: flex-start;
+}
+.break-line {
+  width: 100%;
+  height: 1px;
+  background-color: #bbb7b7;
+}
+/* Organizer Section  */
+.organizer-section article {
+  margin-bottom: 25px;
+}
+.organizer-section article h4 {
+  font-weight: 5 00;
+  font-size: 1.4rem;
+  letter-spacing: 0.7px;
+  margin-bottom: 15px;
+}
+.profile-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 50%;
+  margin-bottom: 15px;
+}
+.profile-pic {
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+}
+.profile-box div p {
+  font-size: 1.2rem;
+}
+.profile-box div p:first-of-type {
+  color: 263238;
+  margin-bottom: 5px;
+}
+.profile-box div p:last-of-type {
+  color: #696969;
+}
+.comment-box {
+  display: flex;
+  margin-bottom: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+.comment-box p:first-of-type {
+  color: #3eb489;
+  font-size: 1.4rem;
+}
+.comment-box p:last-of-type {
+  color: #696969;
+  font-size: 1.4rem;
+  line-height: 0.7;
+}
+.organizer-description {
+  color: #696969;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+.organizer-description span {
+  color: #3eb489;
+}
+.donate-btn {
+  width: 100%;
+  height: 50px;
+  background-color: #3eb489;
+  border-radius: 10px;
+  border: 1px solid #3eb489;
+  font-size: 1.8rem;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+/*  media query Width 768px */
+@media screen and (min-width: 768px) {
+  .container {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .fundraise-picture {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .donation-goals p:first-of-type {
+    font-size: 2.2rem;
+    font-weight: 600;
+  }
+  .donate-btn {
+    margin-bottom: 20px;
+  }
+}
+/*  media query Width 1024px */
+@media screen and (min-width: 1024px) {
+  .fundraise-picture {
+    width: 100%;
+    height: 550px;
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .donation-goals p:first-of-type {
+    font-size: 2.4rem;
+    font-weight: 600;
+  }
+  .donate-btn {
+    margin-bottom: 40px;
+  }
+  .donate-btn:hover {
+    background-color: #4fc499;
+    border: 1px solid #3eb489;
+  }
+  .header-section {
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  .container {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .bar-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .right-icons img:last-of-type {
+    margin-left: 15px;
+  }
+}
