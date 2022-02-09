@@ -196,9 +196,13 @@ body {
   background-color: #3eb489;
   border-radius: 10px;
   border: 1px solid #3eb489;
+
+  transition: all 0.3s ease-in-out;
+}
+.donate-btn a {
+  text-decoration: none;
   font-size: 1.8rem;
   color: #fff;
-  transition: all 0.3s ease-in-out;
 }
 /*  media query Width 768px */
 @media screen and (min-width: 768px) {

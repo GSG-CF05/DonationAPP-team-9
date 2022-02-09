@@ -218,6 +218,10 @@ section .contener-advertisement button {
   color: white;
   margin-bottom: 16px;
 }
+section .contener-advertisement button a {
+  text-decoration: none;
+  color: white;
+}
 
 @media (min-width: 768px) {
   section .contener-advertisement {
